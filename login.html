@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+crossorigin="anonymous">
+    <title>Ingresar</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar fixed-top shadow navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                 <a class="navbar-brand ps-lg-5" href="index.html">
+                        <img src="logo.png" alt="Ualá" width="80" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 lead ps-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobreuala.html">Sobre Ualá</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="costos.html">Costos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> 
+    <div class="container mt-5">
+        <h2 class="gradient">Contactanos!</h2>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="col-md-6">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="apellido" required>
+            </div>
+            <div class="col-md-8">
+                <label for="emailInfo" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailInfo" required>
+            </div>
+            <div class="col-md-4">
+                <label for="telefono" class="form-label">Numero de telefono</label>
+                <input type="text" class="form-control" id="telefono" placeholder="+54 (11) 35766812">
+            </div>
+            <div class="col-md-12">
+                <label for="comentarios" class="form-label">Comentarios, preguntas?</label>
+                <textarea class="form-control" id="comentarios" rows="3"></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="row p-3 pe-0 mt-5 bg-primary text-white">
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                 <P class="h3">Somos <span class="text-danger">Ualá</span></p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                <P class="h5 mb-3">Sobre Ualá</p>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Nosotr@s</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Prensa</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="">Gaming</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none"></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                <P class="h5 mb-3">Links</p>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Terminos y condiciones</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Política de privacidad</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                 <pclass="h5 mb-3">Contacto</p>
+                 <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Terminos y condiciones</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none" href="#">Política de privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+crossorigin="anonymous"></script>
+</body>
+</html>
