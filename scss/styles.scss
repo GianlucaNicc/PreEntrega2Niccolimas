@@ -1,0 +1,9 @@
+@import "variables";
+@import "globals";
+
+h1{
+    font-family: $font-title;
+    span{
+        color: $secondary-color;
+    }
+}
