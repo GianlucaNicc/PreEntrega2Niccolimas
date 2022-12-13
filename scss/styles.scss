@@ -1,9 +1,38 @@
 @import "variables";
 @import "globals";
+@import "navbar";
+@import "footer";
+@import "animaciones";
 
 h1{
     font-family: $font-title;
     span{
         color: $secondary-color;
     }
+}
+
+.container-cards .card{
+    transition: 200ms all;
+}
+
+.container-cards .card:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.costos{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-left{
+    font-size: 200px;
+    margin-right: 100px;
+}
+
+.text-costos{
+    font-size: 20px;
+    font-weight: 400;
 }

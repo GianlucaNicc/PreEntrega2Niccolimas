@@ -1,8 +1,15 @@
-nav{
-    ul{
-        li{
-            a{
-                color: $primary-color;
+.navbar{
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: black;
+                margin-left: 20px;
+                font-weight: 400;
+                transition: all 200ms;
+                &.nav-link:hover{
+                    text-shadow: 0px 1px 2px grey;
+                    transform: scale(1.2,1.2);
+                }
             }
         }
     }
