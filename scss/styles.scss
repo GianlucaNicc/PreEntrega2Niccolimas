@@ -16,7 +16,7 @@ h1{
 }
 
 .container-cards .card:hover{
-    background-color: black;
+    background-color: rgb(168, 168, 168);
     color: white;
 }
 
@@ -35,4 +35,8 @@ h1{
 .text-costos{
     font-size: 20px;
     font-weight: 400;
+}
+
+.footer{
+    margin-top: 12%;
 }
